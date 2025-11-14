@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(108, 138, 227);
+    padding: 0 20px;
+}
+
+.nav1, .nav2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#connecter{
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 2px;
+    text-decoration: underline;
+    
+}
+.ftitre{
+    color: aliceblue;
+}
+
+
+
+.btn{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.countainer{
+    display: flex;
+    border: 1px solid gray;
+    
+
+}
+.section1{
+    background-color: blue;
+    padding: 15px;
+    width: 20%;
+
+
+}
+.section1 nav {
+    background-color: white;
+    border: 1px solid red;
+    padding-bottom: 50px;
+
+}
+ul li {
+    list-style-type: none;
+    padding-bottom: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.section2{
+    background-color:white ;
+    padding: 0 20px;
+}
+.titre2{
+    text-align: right;
+    color: blue;
+    
+}
+.titre3{
+    text-align: end;
+}
+.countainer1{
+background-color: white;
+padding: 20px;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width:150px;
+    height: 150px;
+    margin-right: 40px;
+}
